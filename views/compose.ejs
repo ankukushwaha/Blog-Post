@@ -1,0 +1,15 @@
+<%- include("header.ejs") %>
+
+<div>
+  <h1>Compose</h1>
+  <form action="/post" method="post">
+    <h4>Title</h4>
+    <input type="text" placeholder="Write title here" id="input" name="title"/>
+    <h4>Post</h4>
+    <textarea name="textarea" id="" cols="150" rows="10" placeholder=" Enter your blog here."></textarea
+    ><br />
+    <button type="submit">Publish</button>
+  </form>
+</div>
+
+<%- include("footer.ejs") %>
